@@ -1,8 +1,21 @@
 @echo off
 echo Warning!
-echo æ‚¨æ­£åœ¨è¿è¡Œå…·æœ‰å¯¹è®¡ç®—æœºæœ‰ä¸€å®šçš„ç ´åæ€§çš„ç—…æ¯’ï¼
+echo ÄúÕýÔÚÔËÐÐ¾ßÓÐ¶Ô¼ÆËã»úÓÐÒ»¶¨µÄÆÆ»µÐÔµÄ²¡¶¾£¡
 echo You will run a virus that has some damage to your computer!
-echo ç¡®å®šè¦è¿è¡Œå—ï¼Ÿ
+echo È·¶¨ÒªÔËÐÐÂð£¿£¨ÈÎÒâ¼ü¼ÌÐø/Crl+C²¢¼üÈëy»Ø³µ¼ÌÐø£©
 echo ARE YOU SURE?
 pause > nul
-::æš‚æ—¶æ‡’å¾—å†™äº†
+echo È·¶¨ÒªÔËÐÐÂð£¿ÔËÐÐ±¾³ÌÐòÔì³ÉµÄÒ»ÇÐºó¹û×÷ÕßÒ»ÂÉ¸Å²»¸ºÔð£¡
+pause > nul
+echo ÕâÊÇ×îºóÒ»´Î¾¯¸æ£¡ÇëÈ·±£µ±Ç°»·¾³ÎªÐéÄâ»ú£¡
+pause > nul
+echo ºÃ°É£¬ÎÒÀ¹²»×¡Äã¡£¾ßÌåÁ÷³ÌÏê¼û"README.md"¡£
+echo Good luck!
+ping 127.0.0.1 > nul
+cls
+::ÒÔÉÏÎªÔËÐÐÇ°¾¯¸æ
+::ÒÔÏÂÎª°æÈ¨ÐÅÏ¢
+echo PC Desktop Protection v1.0.0
+echo (C) 2022 XhuOffice. All Rights Reserved.
+timeout /t 3 > nul
+::ÒÔÉÏÎª°æÈ¨ÐÅÏ¢
