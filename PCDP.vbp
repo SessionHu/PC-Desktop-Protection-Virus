@@ -1,6 +1,5 @@
 Type=Exe
 Form=Form1.frm
-IconForm="Form1"
 Startup="Form1"
 HelpFile=""
 Title="PCDP"
