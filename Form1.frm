@@ -85,6 +85,15 @@ Begin VB.Form Form1
       Top             =   2460
       Width           =   1215
    End
+   Begin VB.Label Label3 
+      Caption         =   "by Session"
+      ForeColor       =   &H80000011&
+      Height          =   375
+      Left            =   3480
+      TabIndex        =   8
+      Top             =   2580
+      Width           =   1215
+   End
    Begin VB.Label Label2 
       Caption         =   "键入密码以解锁桌面："
       Height          =   255
@@ -144,5 +153,19 @@ End Sub
 Private Sub Command4_Click()
     Shell "explorer.exe"
     End
+End Sub
+
+Private Sub Command1_Click()
+    Set ws = CreateObject("wscript.Shell")
+    ws.run "shutdown /s /t 0", 0
+End Sub
+
+Private Sub Command2_Click()
+    Set ws = CreateObject("wscript.Shell")
+    ws.run "shutdown /r /t 0", 0
+End Sub
+
+Private Sub Label3_DblClick()
+    MsgBox "(C) XhuOffice 2022 版权所有", vbInformation, "版权信息"
 End Sub
 
